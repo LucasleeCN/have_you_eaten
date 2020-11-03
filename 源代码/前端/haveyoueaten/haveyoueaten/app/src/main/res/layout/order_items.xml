@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    商家图片-->
+    <ImageView
+        android:id="@+id/imagine"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        />
+
+    <!--    商家名称-->
+<TextView
+    android:id="@+id/producer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="20sp"
+    android:layout_toRightOf="@id/imagine"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="5sp"
+    android:layout_marginLeft="5sp"
+
+    />
+<!--    商品名称-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/producer"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/imagine"
+        android:layout_margin="5sp"
+        android:id="@+id/commodity"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+1.完成每个activity里面的TODO
+5 review_item.xml和menu_item的样式很不明确
+4.各个界面之间的跳转逻辑还不完善
+
+2 检查menuActivity基本没有任何功能，menu.xml的布局还有问题
+
+
+
+//6 缺少product_introduction.xml的相关activity
+//3.评价界面以及reviewActivity还有很多功能未实现
